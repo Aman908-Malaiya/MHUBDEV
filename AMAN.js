@@ -59,7 +59,7 @@ console.log({age,currentYear,birthYear})
 
 
 
-if(age < 19 || age > 50){
+if(age < 19 || age > 55){
     document.getElementById('dob').style='border:1px solid red'
   return  alert("Age must be between 18 and 55 or else you will be undefined")
 }else{
